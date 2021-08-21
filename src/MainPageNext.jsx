@@ -7,7 +7,7 @@ class MainPageNext extends React.Component {
   };
 
   componentDidMount() {
-    fetch("https://nitin-movies-app.herokuapp.com/user.json")
+    fetch("/user.json")
       .then((el) => {
         return el.json();
       })

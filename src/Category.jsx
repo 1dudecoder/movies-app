@@ -6,7 +6,7 @@ class Category extends React.Component {
   };
   componentDidMount() {
     //api call(msg bhejna=> get)
-    fetch("https://nitin-movies-app.herokuapp.com/genre")
+    fetch("/genre")
       .then(function (res) {
         return res.json();
       })
