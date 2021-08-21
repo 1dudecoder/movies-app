@@ -8,7 +8,7 @@ class Table extends React.Component {
 
   componentDidMount() {
     //api call(msg bhejna=> get)
-    fetch("/movies")
+    fetch("https://nitin-movies-app.herokuapp.com/movies")
       .then(function (res) {
         return res.json();
       })
